@@ -254,23 +254,49 @@ img {
 }
 
 /* ===== ABOUT =====*/
-.about__container {
-  row-gap: 2rem;
-  text-align: center;
+.about {
+  padding: 4rem 0;
 }
 
-.about__subtitle {
-  margin-bottom: var(--mb-2);
+.about__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+  background-color: #f1eaf1;
+
+}
+
+.about__info {
+  text-align: center;
+
 }
 
 .about__img {
-  justify-self: center;
+  width: 10%;
+  max-width: 70px;
+  border-radius: 0.5rem;
 }
 
-.about__img img {
-  width: 200px;
-  border-radius: .5rem;
+
+
+  .about__img {
+    justify-self: center;
+  }
+
+
+@media screen and (max-width: 576px) {
+  .about__img {
+    width: 200%;
+  }
 }
+
+
+
+
+
 
 /* ===== SKILLS =====*/
 .skills__container {

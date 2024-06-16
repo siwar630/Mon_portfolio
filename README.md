@@ -1,7 +1,7 @@
 # First_Portofolio Responsive Complete
 "This is a first trial of creating a portfolio that contains some of my projects."
 
-![preview img](/preview.png)
+![preview img](My_Portofolio-master\frontend\preview.png)
 
 - Responsive Personal Portfolio Website HTML CSS & JavaScript.
 - Contains animations when scrolling.
