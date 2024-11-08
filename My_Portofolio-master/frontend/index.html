@@ -9,7 +9,7 @@
         <!-- =====BOX ICONS===== -->
         <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
 
-        <title>Portfolio website </title>
+        <title>Siwar Terres | Portfolio </title>
     </head>
     <body>
         <!--===== HEADER =====-->
@@ -22,11 +22,31 @@
 
                 <div class="nav__menu" id="nav-menu">
                     <ul class="nav__list">
-                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
-                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
-                        <li class="nav__item"><a href="Siwar_Terres cv.pdf" target="_blank">Resume</a></a></li>
-                        <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
-                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active">
+                                <i class='bx bx-home'></i> Home
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">
+                                <i class='bx bx-user'></i> About
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="Siwar_Terres cv.pdf" target="_blank" class="nav__link">
+                                <i class='bx bx-file'></i> Resume
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#work" class="nav__link">
+                                <i class='bx bx-briefcase'></i> Work
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#contact" class="nav__link">
+                                <i class='bx bx-envelope'></i> Contact
+                            </a>
+                        </li>
                     </ul>
                 </div>
 
@@ -96,8 +116,7 @@
             <!--===== WORK =====-->
             <section class="work section" id="work">
                 <h2 class="section-title">My projects</h2>
-                
-
+                    <p style="text-align: center;">Here are a few projects I've worked on recently ..</p>
                 <div class="work__container bd-grid">
                     <a href="https://github.com/siwar630/Maison_jungle" class="work__img">
             
@@ -124,25 +143,27 @@
                         <img src="assets/img/projects/flutter.png" alt="To_Do_List-Flutter"  class="work__img-hover">
                     </a>
                     
-                    <a href="" class="work__img">
+                    <a href="https://github.com/siwar630/Candidatures_Angular_Frontend" class="work__img">
                         <img src="assets/img/works/work6.jpg" alt="">
+                        <img src="assets/img/projects/homePage.png" alt="Recrutement"  class="work__img-hover">
+
                     </a>
                 </div>
             </section>
 
-            <!--===== CONTACT =====-->
-            <section class="contact section" id="contact">
-                <h2 class="section-title">Contact</h2>
+       <!--===== CONTACT =====-->
+<section class="contact section" id="contact">
+    <h2 class="section-title">Contact</h2>
 
-                <div class="contact__container bd-grid">
-                    <form action="" class="contact__form">
-                        <input type="text" placeholder="Name" class="contact__input">
-                        <input type="mail" placeholder="Email" class="contact__input">
-                        <textarea name="" id="" cols="0" rows="10" placeholder="Write here ....." class="contact__input"></textarea>
-                        <input type="button" value="Send" class="contact__button button">
-                    </form>
-                </div>
-            </section>
+    <div class="contact__container bd-grid">
+        <form action="mailto:siwarterres65@gmail.com" method="post" enctype="text/plain" class="contact__form">
+            <input type="text" name="name" placeholder="Name" class="contact__input" required>
+            <input type="email" name="email" placeholder="Email" class="contact__input" required>
+            <textarea name="message" cols="0" rows="10" placeholder="Write here ....." class="contact__input" required></textarea>
+            <input type="submit" value="Send" class="contact__button button">
+        </form>
+    </div>
+</section>
         </main>
 
         <!--===== FOOTER =====-->
