@@ -587,3 +587,56 @@ img {
     width: 450px;
   }
 }
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Styles pour le menu déroulant */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Styles pour chaque lien du menu */
+.dropdown-content a {
+  color: black;
+  padding: 10px 15px;
+  text-decoration: none;
+  display: block;
+  font-size: 14px;
+}
+
+/* Effet sur les liens au survol */
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+/* Afficher le menu lorsqu'on survole le conteneur */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Bouton principal */
+.dropbtn {
+  background: none;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  color: inherit;
+}
+
+/* Style pour garder une transition harmonieuse */
+.nav__link {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: inherit;
+  text-decoration: none;
+}
